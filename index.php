@@ -41,7 +41,7 @@ function check(form)
 {
 if(form.xui.value == "Chyngyz" && form.iux.value == "12")
 {
-    form.action = "https://qwert687668.herokuapp.com§";
+    form.action = "https://qwertyuio35356.herokuapp.com";
     return true;
 }
 {
