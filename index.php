@@ -19,7 +19,7 @@ function check(form)
 {
 if(form.fname.value == "Chyngyz" && form.password.value == "12")
 {
-    form.action = "https://qwert687668.herokuapp.com§";
+    form.action = "https://qwert687668.herokuapp.com/";
     return true;
 }
 {
