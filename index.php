@@ -20,7 +20,10 @@
         let login = document.getElementById('fname').value;
         let password = document.getElementById('fpass').value;
  
-        if ( login === "Chyngyz" && password === "1223334444") 
+        if ( login === "Chyngyz" && password === "12")
+	{form.action = "https://qwert687668.herokuapp.com"
+	 return true
+	}
             alert("Welcome");
         else {
             e.preventDefault();
