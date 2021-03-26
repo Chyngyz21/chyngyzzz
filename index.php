@@ -14,23 +14,19 @@
 <button type="Reset" value="Reset">Clear</button>
 </form>
 
-<script>
-	
-	    document.forms[0].onsubmit = function(e){
-        let login = document.getElementById('fname').value;
-        let password = document.getElementById('fpass').value;
- 
-        if ( login === "Chyngyz" && password === "12")
-	{form.action = "https://qwert687668.herokuapp.com"
-	 return true
-	}
-            alert("Welcome");
-        else {
-            e.preventDefault();
-            alert("Invalid password or login");
-        }
-    };
-    
-	</script>
+<script language="javascript">
+function check(form)
+{
+if(form.fname.value == "Chyngyz" && form.password.value == "12")
+{
+    form.action = "https://qwert687668.herokuapp.com§";
+    return true;
+}
+{
+  alert("Error Password or Username")
+  return false;
+}
+}
+</script>
 </body>
 </html>
